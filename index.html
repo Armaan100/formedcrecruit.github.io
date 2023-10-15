@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EDC Recruitment Form</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+
+<body>
+
+<h1 id = "title">EDC-TIET Recruitment Form</h1> 
+<p id = "description"><i>Please fill up the below informations</i></p>
+
+<form id = "recruitment-form">
+  
+  <div class = "form-grp">
+    <label id = "name-label" class="define" for = "name">Name</label>
+    <input
+        type="text"
+        name="name"
+        id="name"
+        class="area"
+        placeholder="Enter your name" required
+      />
+  </div>
+  
+  <div class = "form-grp">
+    <label id = "email-label" class="define" for = "email">Email</label>
+    <input
+        type="email"
+        name="email"
+        id="email"
+        class="area"
+        placeholder="Enter your university email id" required
+        required
+      />       
+  </div>
+  
+  <div class = "form-grp">
+    <label id = "branch-label" class="define" for = "branch">Branch</label>
+    <input
+        type="text"
+        name="branch"
+        id="branch"
+        class="area"
+        placeholder="Enter your branch" required
+      />
+  </div>
+
+  <div class = "form-grp">
+    <label id = "branch-label" class="define" for = "skills">Skills</label>
+    <input
+        type="text"
+        name="skills"
+        id="skills"
+        class="area"
+        placeholder="Enter your skills" required
+      />
+  </div>
+
+<br>
+
+  <div class = "form-grp">
+    <p class="define">Which department are you interested in?</p>
+    <label class="apart">
+        <input
+          name="prefer"
+          value="marketing"
+          type="checkbox"
+          class="input-checkbox"
+        />Marketing
+    <label>
+    <br>
+    <label class="apart">
+        <input class="apart"
+          name="prefer"
+          value="tech"
+          type="checkbox"
+          class="input-checkbox"
+        />Tech</label>
+    <br>
+    <label class="apart">
+        <input
+          name="prefer"
+          value="social-media"
+          type="checkbox"
+          class="input-checkbox"
+        />Social Media
+    </label>
+    <br>
+    <label class="apart">
+        <input
+          name="prefer"
+          value="video-editing"
+          type="checkbox"
+          class="input-checkbox"
+        />Video Editing
+    </label>
+    <br>
+    <label class="apart">
+        <input
+          name="prefer"
+          value="content-writing"
+          type="checkbox"
+          class="input-checkbox"
+        />Content Writing
+    </label>
+    <br>
+    <label class="apart">
+        <input
+          name="prefer"
+          value="photo-editing"
+          type="checkbox"
+          class="input-checkbox"
+        />Photo Editing
+    </label>
+    <br>
+
+
+    <div class = "form-grp">
+        <p class="define">Do you have any prior experiences?</p>
+        <label class="apart">
+           <input
+              name="radiobtn"
+              value="yes"
+              type="radio"
+              class="input-radio"
+              checked
+            />Yes
+        </label>       
+
+        <label class="apart">
+          <input
+              name="radiobtn"
+              value="no"
+              type="radio"
+              class="input-radio"
+            />No
+        </label>
+    </div>
+      
+
+  </div>
+
+<br>
+
+
+ <div class="form-grp">
+    <p class="define">Why do you want to join EDC?</p>
+    <textarea id="reason" rows="7" cols="115" class="textAr" name="reason" placeholder="Type here"></textarea>
+ </div>
+
+ <div class="form-grp">
+    <p class="define">Tell more about your interest.</p>
+    <textarea id="m_interest" rows="7" cols="115" class="textAr" name="m_interest" placeholder="Type here"></textarea>
+ </div>
+
+ <div class="form-grp">
+    <p class="define">What do you think makes you stand out from others?</p>
+    <textarea id="s_out" rows="7" cols="115" class="textAr" name="s_out" placeholder="Type here"></textarea>
+ </div>
+
+ <div class="form-grp">
+    <p class="define">Enter your social media handles.</p>
+    <textarea id="social" rows="5" cols="115" class="textAr" name="social" placeholder="Enter here"></textarea>
+ </div>
+
+ <br>
+  
+ <div class = "form-grp">
+    <button id = "submit" type = "submit">SUBMIT</button>
+ </div>
+<br>
+  
+</form>
+
+
+</body>
+
+</html>
